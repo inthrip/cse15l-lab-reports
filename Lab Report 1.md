@@ -43,7 +43,7 @@ ___
 * ![image](cd-with-directory.png)
 * The absolute path before the command was run was `~`.
 * After running the command, the working directory changes to `~/lecture1`. The reason for this is that `cd` and a directory argument changes the working directory to the specificied directory.
-* This is not an error, cd works exactly as expected.
+* This is not an error, `cd` works exactly as expected.
 ___
 >`ls` with directory argument
 * ![image](ls-with-directory.png)
