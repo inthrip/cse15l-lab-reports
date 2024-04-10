@@ -64,5 +64,12 @@ ___
 * I got this output because `cd` requires a directory argument in order to work correctly. Similarly to running cat with a directory instead of a file, this output informs me that the argument is not what is expected, not a directory.
 * Although `cd` isn't working exactly as intended, this output is not an error.
 >`ls` with file argument
-* ![image](ls-with-file-path)
-* 
+* ![image](ls-with-file-path.png)
+* The absolute path before the command was run was `~/lecture1/messages`
+* I got this output because there are no files or directories accessible beneath a file, so `ls` outputs only the file name.
+* This output is not an error, `ls` outputs only the file name when given a file argument.
+>`cat` with file argument
+* ![image](cat-with-file-path.png)
+* The absolute path before the command was run was `~/lecture1/messages`
+* I got this output because the `cat` command outputs the file's contents. The output is exactly what was inside the specified file.
+* This output is not an error, `cat` works exactly as intended.
