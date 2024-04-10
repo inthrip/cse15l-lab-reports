@@ -19,5 +19,6 @@ So that's 9 total examples (3 for each command). **For each of the 9 examples**,
 
 1. **Commands with no arguments**
    * ![image](cd-no-argument.png)
-   * Absolute path before command was run was ~
-   * There is no change output
+   * The absolute path before command was run was *~*.
+   * Since no directory was specified, `cd` outputs nothing and changes nothing. The directory remains at ~.
+   * The output is not an error. Since we do not specify a directory when running the change directory command, it is expected the directory will not change.
