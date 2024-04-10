@@ -15,6 +15,9 @@ So that's 9 total examples (3 for each command). **For each of the 9 examples**,
 * Indicate explicitly whether the output is an *error* or not, and if it's an error, explain why it's an error in one or two sentences. **Note:** Make sure to use backticks  around keywords such as commands, file names, paths, etc. to make them show up as code like `cd`.
 
 
+## Lab Report
 
 1. **Commands with no arguments**
    * ![image](cd-no-argument.png)
+   * Absolute path before command was run was ~
+   * There is no change output
