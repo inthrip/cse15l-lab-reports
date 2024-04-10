@@ -17,4 +17,4 @@ So that's 9 total examples (3 for each command). **For each of the 9 examples**,
 
 
 1. **Commands with no arguments**
-   * ![image](cd no argument.png)
+   * ![image](cd-no-argument.png)
