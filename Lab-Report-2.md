@@ -67,4 +67,11 @@ How do the values of any relevant fields of the class change from this specific 
 - The value of the 'str' field is updated from "inthrip: Hello World\n" to "inthrip: Hello World\n Clorox: Trying to sleep here/n" when the relevant argument is passed.
 
 ## Part 2:
-1. ![image]
+1. ![image](Lab2-PrivateKey.png)
+---
+2. ![image](Lab2-PublicKey.png)
+---
+3. ![image](Lab2_LoggingIn.png)
+
+## Part 3:
+I learned quite a few things during this lab that I had no knowledge of before. For one, I learned how to use ssh keys and how they are very time-saving when it it comes to logging in remotely. Alongside that, I also learned how to use scp, which I'm sure will come in extremely handy whenever I need to copy files between locations.
