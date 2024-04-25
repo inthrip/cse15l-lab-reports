@@ -42,3 +42,29 @@ class ChatServer {
     }
 }
 ~~~
+## First Usage of `/add-message`:
+![image](Lab2-AddMessage1.png)
+Which methods in your code are called?
+- The method that is called is handleRequest.
+
+What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+- The relevant argument to this method is `addmessage?s=Hello World&user=inthrip`, this method returns what we see displayed.
+- The 'str' field is the relevant field of this class, the value of this field before the arugment is passed is "".
+
+How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+- The value of the 'str' field is updated when the relevant argument is passed, it becomes "inthrip: Hello World\n"
+
+## Second Usage of `/add-message`:
+![image](Lab2-AddMessage2.png)
+Which methods in your code are called?
+- The method that is called is handleRequest.
+
+What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+- The relevant argument to this method is `addmessage?s=Trying to sleep here&user=Clorox`, this method returns what we see displayed.
+- The 'str' field is the relevant field of this class, the value of this field before the arugment is passed is "inthrip: Hello World\n.
+
+How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+- The value of the 'str' field is updated from "inthrip: Hello World\n" to "inthrip: Hello World\n Clorox: Trying to sleep here/n" when the relevant argument is passed.
+
+## Part 2:
+1. ![image]
