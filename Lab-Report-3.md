@@ -704,6 +704,33 @@ $ grep --max-count=1 "ALLHAT" technical/biomed/1468-6708-3-7.txt
 ~~~
 This command shows us only the first instance of "ALLHAT". This is useful for two reason, for one, it allows us to swiftly determine that ALLHAT is referenced at all in the file. Secondly, reading the line allows us to quickly ascertain that the ALLHAT the file is referencing the the ALLHAT we are interested in.
 
+4. Useful command-line: -n
+-n Shows us the line number corresponding to each line in the file that contains the string. I found info on it from grep --help
+~~~
+$ grep -n "ALLHAT" technical/biomed/1468-6708-3-7.txt
+8:        (ALLHAT), the role of peripheral alpha-1 antagonists in the
+10:        doxazosin arm of ALLHAT was stopped early, due to a
+17:        cause CHF. Because ALLHAT is an active-control trial, no
+24:        tolerability. In light of the results of ALLHAT, we
+195:          alpha-1 antagonists. Among these, only ALLHAT
+207:          ALLHAT demonstrated a highly statistically
+215:          (RR 1.19, 95% CI 1.01-1.40). Since ALLHAT is a
+235:          comparison, the rates of CHF in ALLHAT participants
+238:          chlorthalidone has a similar risk reduction in the ALLHAT
+247:        The report of the doxazosin arm termination in ALLHAT
+249:        the ALLHAT trial were unexpected, given the potential
+258:        Those treated with doxazosin in ALLHAT had a mean blood
+274:        increasing the incidence of CHF in the ALLHAT trial, it
+303:        failure findings in ALLHAT, the results support the current
+~~~
+This shows us what lines contain "ALLHAT" it is useful because it allows us to easily identify the line that corresponds to the information that is relevant to us.
+
+~~~
+$ grep -n "Conclusion" technical/biomed/1468-6708-3-7.txt
+246:        Conclusions
+~~~
+This shows us one lines contain "conclusion" since reports always indicate the conclusion ahead of time, this command is useful because it shows us where this reports conclusion begins.
+
 
 
 
