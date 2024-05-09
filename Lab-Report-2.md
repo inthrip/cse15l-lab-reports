@@ -67,9 +67,9 @@ How do the values of any relevant fields of the class change from this specific 
 - The value of the 'str' field is updated from "inthrip: Hello World\n" to "inthrip: Hello World\n Clorox: Trying to sleep here/n" when the relevant argument is passed.
 
 ## Part 2:
-1. ![image](Lab2-PrivateKey.png)
+1. ![image](Lab2-Priv.png)
 ---
-2. ![image](Lab2-PublicKey.png)
+2. ![image](Lab2-Pub.png)
 ---
 3. ![image](Lab2_LoggingIn.png)
 
