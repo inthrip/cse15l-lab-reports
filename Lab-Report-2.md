@@ -48,7 +48,7 @@ Which methods in your code are called?
 - The method that is called is handleRequest.
 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-- The relevant argument to this method is `addmessage?s=Hello World&user=inthrip`, this method returns what we see displayed.
+- The relevant argument to this method is `/add-message?s=Hello%20World&user=inthrip`, this method returns what we see displayed.
 - The 'str' field is the relevant field of this class, the value of this field before the arugment is passed is "".
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
@@ -60,7 +60,7 @@ Which methods in your code are called?
 - The method that is called is handleRequest.
 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-- The relevant argument to this method is `addmessage?s=Trying to sleep here&user=Clorox`, this method returns what we see displayed.
+- The relevant argument to this method is `/add-message?s=Trying%20to%20sleep%20here&user=Clorox`, this method returns what we see displayed.
 - The 'str' field is the relevant field of this class, the value of this field before the arugment is passed is "inthrip: Hello World\n.
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
