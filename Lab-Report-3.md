@@ -71,7 +71,7 @@ After the change:
 ## Part 2: Researching Commands
 The command I chose to use was grep, I chose grep because it felt both very intuitive and essential during our lab. For reference, find-results.txt just includes all the files and directories from technical.
 1. Useful command-line -v:
-   -v is called invert match, and will exlude and matching lines. I found information on it at grep --help
+   -v is called invert match, and will exlude and matching lines. I found information on it at grep --help. I also found more info about -v from https://www.geeksforgeeks.org/grep-command-in-unixlinux/
    ~~~
    $ grep -v ".txt" find-results.txt
    technical/
@@ -659,7 +659,7 @@ technical/plos/pmed.0020281.txt
 What grep is doing here is excluding any files and directories that inlcude biomed as part of their path. This allows us to select/look at only hte files and directories not pertaining to biomed.
 
 2. Useful command-line: -c
-   -c Allows us to count the amount of lines that contain the designated string, I found info on it from grep --help
+   -c Allows us to count the amount of lines that contain the designated string, I found info on it from grep --help. I also found more info on how to utilize -c from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 ~~~
 $ grep -c "biomed" find-results.txt
 838
@@ -672,7 +672,7 @@ $ grep -c ".txt" find-results.txt
 This command is showing us how many lines contain ".txt" in find-results. Since find-results is a list of all paths and directories in technical, this is useful because it shows us how many txt files there are in technical. This is an alternate way of finding the amount of ".txt" files than we learned form the lab.
 
 3. Useful command-line: --max-count=NUM
-   This command-line allows us to specify the maximum amount of lines contained the string that will be printed.
+   This command-line allows us to specify the maximum amount of lines contained the string that will be printed. I found more info regarding how to use this command line from: https://www.baeldung.com/linux/grep-limit-output#:~:text=Limit%20grep%20Output%20Using%20%E2%80%93max,the%20given%20number%20of%20matches.&text=For%20each%20file%2C%20the%20number%20of%20results%20never%20hits%20the%20limit.
 ~~~
 $ grep --max-count=20 "a" technical/biomed/1468-6708-3-7.txt
         Background
@@ -705,7 +705,7 @@ $ grep --max-count=1 "ALLHAT" technical/biomed/1468-6708-3-7.txt
 This command shows us only the first instance of "ALLHAT". This is useful for two reason, for one, it allows us to swiftly determine that ALLHAT is referenced at all in the file. Secondly, reading the line allows us to quickly ascertain that the ALLHAT the file is referencing the the ALLHAT we are interested in.
 
 4. Useful command-line: -n
--n Shows us the line number corresponding to each line in the file that contains the string. I found info on it from grep --help
+-n Shows us the line number corresponding to each line in the file that contains the string. I found info on it from grep --help. I also found more info on how to use this command line from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 ~~~
 $ grep -n "ALLHAT" technical/biomed/1468-6708-3-7.txt
 8:        (ALLHAT), the role of peripheral alpha-1 antagonists in the
