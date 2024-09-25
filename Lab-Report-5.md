@@ -45,6 +45,20 @@ Thanks for the advice, you were right about where the bug came from. Previously,
 
 - The java file before fixing the bug:
   ![image](Lab5_Code1)
+
+- Commands ran to trigger bug:
+  ![image](Lab5_Terminal)
+
+- A description of what to edit to fix the bug:
+
+  In order to fix the bug I had to add all the path ids as items in the paths arraylist. This allowed the remaining code to actually consider each possible path id as a starting path and actually create all the desired words from the input letters.
+
+  After fixing the code it looked like this: ![image](Lab5_Code3)
+
+- There is a lot of code in the bash script and other java code that is part of solving the Word Hunt that is not inlcuded because it was not apart of the bug.  I couldn't include screenshots of all the code that wasn't directly linked to the bug because it was thousands of lines and simply would not fit reasonably. I typed all this code from scratch and this bug I've covered here is actually a bug I ran into while coding and testing the solver. If you are curious to see all the code involved it's on a folder called Word_Hunt in my cse15-lab-reports repository on my github.
+
+## Part 2: Reflection:
+I think the most interesting and useful thing I learned in the second half of this quarter is file exploration and manipulation. The code for this word hunt solver involved dictionaries' with hundreds of thousands of words that I needed to be able to sift through and edit efficiently, which would have been impossibly tedious to do without utilizing what I learned about file exploration and manipulation. 
   
   
 
