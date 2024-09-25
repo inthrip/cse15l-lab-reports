@@ -37,3 +37,14 @@ This is the terminal output, as you can see it is only giving me words that star
 Thanks for the advice, you were right about where the bug came from. Previously, I wasn't adding all the path ids to the paths variable, so the for loops were only creating words from the first letter. To fix it, I added all the ids to the paths variable one by one and now the for loop to look at each one and then search for words is working as intended. As you can see from the terminal output, it is now giving me the biggest words starting from all the letters, instead of just the first letter.
 ![image](Lab5_Terminal2)
 
+
+### 4. At the end, all the information needed about the setup:
+
+- The file and directory structure:
+  ![image](Lab5_Directory)
+
+- The java file before fixing the bug:
+  ![image](Lab5_Code1)
+  
+  
+
