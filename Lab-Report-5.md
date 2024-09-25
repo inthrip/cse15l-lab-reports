@@ -34,4 +34,6 @@ This is the terminal output, as you can see it is only giving me words that star
 
 **User: Derrick Burton**
 
-Thanks for the advice, I added all the ids to the paths variable one by one and now the for loop to look at each one and then search for words is working as intended.
+Thanks for the advice, you were right about where the bug came from. Previously, I wasn't adding all the path ids to the paths variable, so the for loops were only creating words from the first letter. To fix it, I added all the ids to the paths variable one by one and now the for loop to look at each one and then search for words is working as intended. As you can see from the terminal output, it is now giving me the biggest words starting from all the letters, instead of just the first letter.
+![image](Lab5_Terminal2)
+
